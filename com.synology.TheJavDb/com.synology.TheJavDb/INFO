@@ -1,0 +1,16 @@
+{
+	"id": "com.synology.TheJavDb",
+	"title": "The JavDb Online Movie Database",
+	"description": "",
+	"version": "1.0",
+	"site": "http://www.javdb.com/",
+	"entry_file": "loader.sh",
+	"type": ["movie"],
+	"language": ["enu"],
+	"test_example": {
+		"movie": {
+			"title": "JUL-431",
+			"original_available": "2001-11-16"
+		}
+	}
+}
