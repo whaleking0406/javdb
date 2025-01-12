@@ -18,7 +18,7 @@ Usage:
 电影文件命名为番号（SSIS-001）
 
 用法：
-0. 将所有文件放入名为com.synology.TheJavDb的文件夹
+0.将所有文件放入名为com.synology.TheJavDb的文件夹
 1.压缩文件夹为com.synology.TheJavDb.zip
 2.Video Station -> Settings -> Video Info Plugin -> Add
 3.上传此压缩文件夹

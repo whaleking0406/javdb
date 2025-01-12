@@ -39,7 +39,7 @@ def parse_summary(html):
 
 def parse_backdrop(html):
     ret = []
-    result = html.xpath('//a[@class="cover-container"]/img/@src')
+    result = html.xpath('//img[@class="video-cover"]/@src')
     for i in result:
         if i != "":
             ret.append(i)
@@ -49,7 +49,7 @@ def parse_backdrop(html):
 
 def parse_poster(html):
     ret = []
-    result = html.xpath('//a[@class="cover-container"]/img/@src')
+    result = html.xpath('//img[@class="video-cover"]/@src')
     for i in result:
         if i != "":
             i = i.replace('covers', 'thumbs')
