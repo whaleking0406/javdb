@@ -89,7 +89,7 @@ def parse_directors(html):
 # Crawl the web contents based on a given `key`. They `key` should be something that looks like ABC-123.   
 def crawl_from_db(key):
     try:
-        # Constrcut the search URL.
+        # Construct the search URL.
         htmlcode = get_html('https://javdb.com/search?q=' + key + '&f=all')
         html = etree.fromstring(htmlcode, etree.HTMLParser())
 
